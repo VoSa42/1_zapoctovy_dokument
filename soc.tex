@@ -1,11 +1,11 @@
 \documentclass{article}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
-
 \usepackage[resetfonts]{cmap}
 \usepackage{lmodern}
 \usepackage[czech]{babel}
 \usepackage[T1]{fontenc}
+\bibliographystyle{unsrt}
 \usepackage[protrusion,expansion]{microtype}
 
 \setlength{\parindent}{10ex}
@@ -16,7 +16,7 @@
 \setlength{\parindent}{5ex}
 
 \section*{Úvod}
-Stereoskopie je dnes všeobecně známá spíše pod názvem „3D technologie“. Toto označení ale není zcela správné, 3D~=~3 dimenze (slovo dimenze znamená rozměr - původ z~latiny). 3D je tedy prostor, který má 3~rozměry. Takový prostor je všude kolem nás. Zatímco stereoskopie je systém, který umožňuje 2D obraz (tzn. plošný, např. na papíře nebo na monitoru) vnímat jako 3D obraz. V~principu jde tedy o~zrakovou iluzi.
+Stereoskopie\cite{wiki_stereoskopie} je dnes všeobecně známá spíše pod názvem „3D technologie“. Toto označení ale není zcela správné, 3D~=~3 dimenze (slovo dimenze\cite{dimension} znamená rozměr - původ z~latiny). 3D je tedy prostor, který má 3~rozměry. Takový prostor je všude kolem nás. Zatímco stereoskopie je systém, který umožňuje 2D obraz (tzn. plošný, např. na papíře nebo na monitoru) vnímat jako 3D obraz. V~principu jde tedy o~zrakovou iluzi.
 
 \section{Princip zrakového 3D vjemu}
 Samotné oko vidí 2D obraz. Tím, že oko zplošťuje nebo roztahuje čočku (akomodace), zaostřuje sice na bližší a~vzdálenější objekty v~prostoru, samotný 3D obraz ale nevytváří.\par
@@ -38,5 +38,7 @@ Podmínkou 3D vnímání prostoru je mít dvě oči, jejichž osy musí směřov
 \noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
 
 \textit{Pozn.: druhá polovina 1.~zápočtového dokumentu je část práce soč, která je mým autorským dílem. Původně byla vypracována pomocí programu Microsoft Word, pro účely tohoto dokumentu jsem ji upravil a~vysázel v~\LaTeX u.}
+
+\bibliography{bibliography}
 
 \end{document}
