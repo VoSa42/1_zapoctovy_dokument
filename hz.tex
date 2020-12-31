@@ -1,0 +1,115 @@
+\documentclass{article}
+\usepackage[resetfonts]{cmap}
+\usepackage{lmodern}
+\usepackage[czech]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[protrusion,expansion]{microtype}
+\usepackage{multicol}
+\usepackage{url}
+
+\begin{document}
+  \section{Expanze fontů}
+  \begin{multicols}{2}
+    \microtypesetup{protrusion=false, % Tato část ukázky bude sázena bez
+                                      % zavěšování interpunkce.
+                    expansion=false}  % Tento sloupec bude vysázen bez expanze
+                                      % fontů.
+    U~města Vrbna, obývaného převážně horníky, stával na Zámeckém vrchu hrad.
+    Tady se udál za švédské vojny příběh velké lásky a nenávisti, jak jej
+    vzpomíná stará pověst.  To bylo v~době, kdy na zdejším panství sídlili dva
+    bratři, Hynek a Hanuš z~Vrbna. A~protože se stavěli proti císaři, dal je
+    císař do klatby a jejich statky zabral. Hynek zavčasu uprchl do ciziny, ale
+    Hanuš zaplatil své přesvědčení hlavou. Ještěže vdovu po Hanušovi a dcerušku
+    Helenku nechali císařští na hradě!
+
+    Když po letech přitáhli na Moravu a do Slezska Švédové, domácí obyvatelstvo
+    se k~nim hlásilo přátelsky. Není se čemu divit, vždyť je spojovala společná
+    nenávist k~císaři. To již Helenka vyrostla ve sličnou dívku, široko daleko
+    proslulou svojí krásou. Když ji jednou zahlédl mladý švédský důstojník,
+    zahořel k~ní láskou, a je třeba vyzradit, že také Helence se velice líbil.
+    Švédové tehdy dobyli celou krajinu bruntálskou, ale z~vrbenského hradu
+    císařské vypudit nedokázali. Hrad byl dobře zásoben střelivem a změnil se
+    v~nedobytnou pevnost, kterou císařovi žoldáci zoufale bránili, aby uhájili
+    vlastní životy. A~tak se zdálo, že milencům nebude dopřáno, aby se setkali.
+    \columnbreak
+
+    \microtypesetup{expansion=true} % Tento sloupec bude vysázen s expanzí.
+    U~města Vrbna, obývaného převážně horníky, stával na Zámeckém vrchu hrad.
+    Tady se udál za švédské vojny příběh velké lásky a nenávisti, jak jej
+    vzpomíná stará pověst.  To bylo v~době, kdy na zdejším panství sídlili dva
+    bratři, Hynek a Hanuš z~Vrbna. A~protože se stavěli proti císaři, dal je
+    císař do klatby a jejich statky zabral. Hynek zavčasu uprchl do ciziny, ale
+    Hanuš zaplatil své přesvědčení hlavou. Ještěže vdovu po Hanušovi a dcerušku
+    Helenku nechali císařští na hradě!
+
+    Když po letech přitáhli na Moravu a do Slezska Švédové, domácí obyvatelstvo
+    se k~nim hlásilo přátelsky. Není se čemu divit, vždyť je spojovala společná
+    nenávist k~císaři. To již Helenka vyrostla ve sličnou dívku, široko daleko
+    proslulou svojí krásou. Když ji jednou zahlédl mladý švédský důstojník,
+    zahořel k~ní láskou, a je třeba vyzradit, že také Helence se velice líbil.
+    Švédové tehdy dobyli celou krajinu bruntálskou, ale z~vrbenského hradu
+    císařské vypudit nedokázali. Hrad byl dobře zásoben střelivem a změnil se
+    v~nedobytnou pevnost, kterou císařovi žoldáci zoufale bránili, aby uhájili
+    vlastní životy. A~tak se zdálo, že milencům nebude dopřáno, aby se setkali.
+  \end{multicols}
+  
+  \newpage
+  \section{Zavěšování interpunkce}
+  \begin{multicols}{2}
+    \microtypesetup{expansion=false,  % Tato část ukázky bude sázena bez
+                                      % expanze fontů.
+                    protrusion=false} % Tento sloupec bude vysázen bez
+                                      % zavěšování interpunkce.
+    U~města Vrbna, obývaného převážně horníky, stával na Zámeckém vrchu hrad.
+    Tady se udál za švédské vojny příběh velké lásky a nenávisti, jak jej
+    vzpomíná stará pověst.  To bylo v~době, kdy na zdejším panství sídlili dva
+    bratři, Hynek a Hanuš z~Vrbna. A~protože se stavěli proti císaři, dal je
+    císař do klatby a jejich statky zabral. Hynek zavčasu uprchl do ciziny, ale
+    Hanuš zaplatil své přesvědčení hlavou. Ještěže vdovu po Hanušovi a dcerušku
+    Helenku nechali císařští na hradě!
+
+    Když po letech přitáhli na Moravu a do Slezska Švédové, domácí obyvatelstvo
+    se k~nim hlásilo přátelsky. Není se čemu divit, vždyť je spojovala společná
+    nenávist k~císaři. To již Helenka vyrostla ve sličnou dívku, široko daleko
+    proslulou svojí krásou. Když ji jednou zahlédl mladý švédský důstojník,
+    zahořel k~ní láskou, a je třeba vyzradit, že také Helence se velice líbil.
+    Švédové tehdy dobyli celou krajinu bruntálskou, ale z~vrbenského hradu
+    císařské vypudit nedokázali. Hrad byl dobře zásoben střelivem a změnil se
+    v~nedobytnou pevnost, kterou císařovi žoldáci zoufale bránili, aby uhájili
+    vlastní životy. A~tak se zdálo, že milencům nebude dopřáno, aby se setkali.
+    \columnbreak
+
+    \microtypesetup{protrusion=true} % Tento sloupec bude vysázen se zavěšenou
+                                     % interpunkcí.
+    U~města Vrbna, obývaného převážně horníky, stával na Zámeckém vrchu hrad.
+    Tady se udál za švédské vojny příběh velké lásky a nenávisti, jak jej
+    vzpomíná stará pověst.  To bylo v~době, kdy na zdejším panství sídlili dva
+    bratři, Hynek a Hanuš z~Vrbna. A~protože se stavěli proti císaři, dal je
+    císař do klatby a jejich statky zabral. Hynek zavčasu uprchl do ciziny, ale
+    Hanuš zaplatil své přesvědčení hlavou. Ještěže vdovu po Hanušovi a dcerušku
+    Helenku nechali císařští na hradě!
+
+    Když po letech přitáhli na Moravu a do Slezska Švédové, domácí obyvatelstvo
+    se k~nim hlásilo přátelsky. Není se čemu divit, vždyť je spojovala společná
+    nenávist k~císaři. To již Helenka vyrostla ve sličnou dívku, široko daleko
+    proslulou svojí krásou. Když ji jednou zahlédl mladý švédský důstojník,
+    zahořel k~ní láskou, a je třeba vyzradit, že také Helence se velice líbil.
+    Švédové tehdy dobyli celou krajinu bruntálskou, ale z~vrbenského hradu
+    císařské vypudit nedokázali. Hrad byl dobře zásoben střelivem a změnil se
+    v~nedobytnou pevnost, kterou císařovi žoldáci zoufale bránili, aby uhájili
+    vlastní životy. A~tak se zdálo, že milencům nebude dopřáno, aby se setkali.
+  \end{multicols}
+
+  \noindent Text byl převzat
+  z~\url{http://www.abatar.cz/pohadky/bila_pani_vrbenska.htm}.
+
+  \microtypesetup{expansion=false} % ... a ještě jednou bez expanze fontů.
+  \noindent Text byl převzat
+  z~\url{http://www.abatar.cz/pohadky/bila_pani_vrbenska.htm}.
+  
+  \microtypesetup{expansion=true,protrusion=false} % ... a ještě jednou bez
+                                                   % zavěšování interpunkce.
+  \noindent Text byl převzat
+  z~\url{http://www.abatar.cz/pohadky/bila_pani_vrbenska.htm}.
+\end{document}
